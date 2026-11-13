@@ -1,14 +1,21 @@
 # Customer Feedback Sentiment Tool
 
-NLP tool that analyses customer feedback and classifies each comment as positive, negative or neutral.
+Command-line NLP tool: type a customer comment and it classifies the sentiment as Positive, Negative or Neutral with a polarity score.
 
 ## Features
 - Sentiment polarity with TextBlob
-- Works on a CSV of feedback
-- Summary of positive / negative / neutral feedback
+- Positive / Negative / Neutral label plus score
+- Sample comments in `feedback.csv` to try
+
+## Example
+```
+Enter customer feedback: I love this product, great service
+Sentiment: Positive
+Polarity Score: 0.65
+```
 
 ## Tech Stack
-Python, TextBlob, NLTK, Pandas, Matplotlib
+Python, TextBlob
 
 ## Getting Started
 ```bash
